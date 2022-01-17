@@ -1,0 +1,29 @@
+import turtle
+import time
+turtle.title("Circle with Square")
+s = turtle.getscreen
+turtle.bgcolor("black")
+t = turtle.Turtle()
+t.pensize(5)
+running = True
+while running:
+    t.speed(100)
+    t.pencolor("red")
+    t.right(89)
+    t.forward(200)
+    t.pencolor("orange")
+    t.right(89)
+    t.forward(100)
+    t.pencolor("yellow")
+    t.right(89)
+    t.forward(200)
+    t.pencolor("green")
+    t.right(89)
+    t.forward(100)
+    t.pencolor("blue")
+    t.right(89)
+    t.forward(100)
+    t.pencolor("magenta")
+    t.right(89)
+    t.forward(100)
+    time.sleep(5)
