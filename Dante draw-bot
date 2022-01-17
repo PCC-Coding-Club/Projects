@@ -26,4 +26,4 @@ while running:
     t.pencolor("magenta")
     t.right(89)
     t.forward(100)
-    time.sleep(5)
+    time.sleep(0.1)
