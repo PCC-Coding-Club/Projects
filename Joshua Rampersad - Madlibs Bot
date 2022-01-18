@@ -1,0 +1,15 @@
+a = str(input("Things(plural): "))
+b = str(input("Adjective: "))
+c = str(input("Song Title: "))
+d = str(input("A Celebrity: "))
+e = str(input("Feeling: "))
+f = str(input("Verb: "))
+g = str(input("A place: "))
+h = str(input("Food: "))
+i = str(input("Things(plural): "))
+j = str(input("Person: "))
+print(f"""I just got back from a pizza party with {j}. Can you believe we got to eat {b} pizza in {g}?!
+Everyone got to choose their own toppings. I made ' {h} and {a} ' pizza, which is my favorite! 
+They even stuffed the crust with {i}. How {e}!
+If that wasn't good enough already, {d} was there singing {c}.
+I was so inspired by the music, I had to get up out of my seat and {f}.""")
